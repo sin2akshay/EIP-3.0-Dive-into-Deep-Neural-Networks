@@ -30,7 +30,8 @@ The Kernel matrix is moved over the image matrix to get the output matrix as sho
 We will see below how different Kernels affect the output image after the process of convolution takes place.
 ___
 ### Filters/Kernels
-Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Following are some of the examples:  
+Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Following are some of the examples: 
+  
 __Simple Blur__  
 ![Simple Blur](http://aishack.in/static/img/tut/conv-simple-blur-result1.jpg)  
 __Line Detection__  
