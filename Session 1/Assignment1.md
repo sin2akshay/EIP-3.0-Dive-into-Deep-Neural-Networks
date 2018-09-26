@@ -58,7 +58,12 @@ We can see above that ~120 Million computational steps was required. Now let's p
 As we can see in the above image. Computational cost was reduced from ~120 Million to ~12.4 Million.
 ___
 ### 3x3 Convolution
-
+3x3 Convolution is the process of applying a 3x3 filter to the image. To deal with the depth and large number of computational steps required, people nowadays use 3x3 convolutions exclusively. When stacked together, they act as a larger receptive field as you can see in the image below. The 2nd convulation layer sees the image just like 5x5 layer convulation output layer.
+![3x3 Convolution](https://raw.githubusercontent.com/sin2akshay/EIP2-MLBLR/master/Session%201/_files/3x3Convolution.JPG)
+Here you can see how each pixel on the First Convulation output sees a 3x3 area from input image. Then each pixel on the second convolution sees the pixel on first convolution making the stack behave like a 5x5 filter and also reducing the computational cost which we will see blow.
+![3x3 Convolution Stacked](https://github.com/sin2akshay/EIP2-MLBLR/blob/master/Session%201/_files/3x3Stacked.png?raw=true)
+Suppose we have an input image of dimensions HxWxC and we use convolutions with C number of filters to keep the depth same. Comparing the compuational cost between using a 7x7 convolution vs a 3 stack of 3x3 convolutions:
+![3x3 Convulution Stacked vs 7x7 Convolution](https://github.com/sin2akshay/EIP2-MLBLR/blob/master/Session%201/_files/3x3StackComputation.JPG?raw=true)
 ___
 ### Feature Maps
 
@@ -75,6 +80,8 @@ ___
 - [Basic Image Processing](https://users.itk.ppke.hu/kep/Lectures/IPA_02_Convolution.pdf)
 - [What is a 1x1 convolution - Quora](http://qr.ae/TUGNbk)
 - [A Beginner's Guide To Understanding Convolutional Neural Networks](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/)
+- [Deep Learning: Practice and Trends (NIPS 2017 Tutorial, parts I & II)](https://www.youtube.com/watch?v=YJnddoa8sHk&feature=youtu.be&t=1140)
+- CS231n Lecture 11 - ConvNets in practice [[Video]](https://youtu.be/dUTzeP_HTZg?t=1513) [[Lecture Notes - Page 40]](http://cs231n.stanford.edu/slides/2016/winter1516_lecture11.pdf)
 ___
 #### Doubts
 - Does the size of the filters we use, always same as that of the input image?
