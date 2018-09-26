@@ -45,7 +45,17 @@ ___
 An epoch describes the number of times our algorithm has went over the whole dataset. Once our algorithm has seen all the samples(batches) from our dataset, we can say that an epoch has been completed. Generally, training a neural network involves multiple epochs to be completed.
 ___
 ### 1x1 Convolution
+Convolving an image with a 1x1(WXH) filter is called 1x1 Convolution. This process is used to control the depth of the input image, either increase it or decrease it, as it is passed to the next layer. But in general we use it for reducing the dimension just before the more computationally costly convolutions (3x3, 5x5..). Let's take an example where we take a 6x6 image with three color channels (depth = 3). Then we take a 1x1x3 filter (Here 3 is the depth which is variable as per input image. Depth of the filter is always same as the input image), we can see the output below:
+![1x1 Convolution | Single Filter](https://qph.fs.quoracdn.net/main-qimg-3d412cacb0435a8e56eda709ae26795f)
 
+Here, by increasing the number of such filters used we can control the depth of the output. Say, if we used 2 such filters:
+![1x1 Convolution | 2 Filters](https://qph.fs.quoracdn.net/main-qimg-0b3c4bbc86cc5c73efb8dbf2c699265a)
+
+We can see from the below images, how 1x1 reduces the computational cost significantly. First lets see the case where we use a 5x5 filter and 32 is the number of filters used:
+![Computational Cost - 5x5 Convolution](https://qph.fs.quoracdn.net/main-qimg-7df9c28f92d879d9f9e6d25f6f991a1e)
+We can see above that ~120 Million computational steps was required. Now let's pass a 1x1 filter(16 number of filters) just before this process:
+![Computational Cost - 1x1 and 5x5 Filter together](https://qph.fs.quoracdn.net/main-qimg-93361dde6ee02fb428e5df5416718c0c)
+As we can see in the above image. Computational cost was reduced from ~120 Million to ~12.4 Million.
 ___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
@@ -55,3 +65,6 @@ ___
 - [Image Kernels](http://setosa.io/ev/image-kernels/)
 - [Basic Image Processing](https://users.itk.ppke.hu/kep/Lectures/IPA_02_Convolution.pdf)
 - [What is a 1x1 convolution - Quora](http://qr.ae/TUGNbk)
+___
+#### Doubts
+- Does the size of the filters we use, always same as that of the input image?
