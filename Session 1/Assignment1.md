@@ -21,7 +21,7 @@
 - You MUST use your own words while writing any of the above, if we find plagiarism, 0 marks would be awarded for that article.
 ___
 ## AKSHAY KUMAR | EIP2 Batch1
-___
+
 ### Convolution
 In image processing, by convolution we mean, putting a matrix over another and then calculating the weighted sum of all pixel values. One of these matrices is an image and the other one is a kernel matrix. The kernel matrix is generally smaller than the image (3x3 is the standard).
 ![Convolution](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/1.JPG)
@@ -57,6 +57,15 @@ We can see above that ~120 Million computational steps was required. Now let's p
 ![Computational Cost - 1x1 and 5x5 Filter together](https://qph.fs.quoracdn.net/main-qimg-93361dde6ee02fb428e5df5416718c0c)  
 As we can see in the above image. Computational cost was reduced from ~120 Million to ~12.4 Million.
 ___
+### 3x3 Convolution
+
+___
+### Feature Maps
+
+___
+### Feature Engineering
+
+___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
 - [How Blurs & Filters Work - Computerphile](https://www.youtube.com/watch?v=C_zFhWdM4ic)
@@ -65,6 +74,7 @@ ___
 - [Image Kernels](http://setosa.io/ev/image-kernels/)
 - [Basic Image Processing](https://users.itk.ppke.hu/kep/Lectures/IPA_02_Convolution.pdf)
 - [What is a 1x1 convolution - Quora](http://qr.ae/TUGNbk)
+- [A Beginner's Guide To Understanding Convolutional Neural Networks](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/)
 ___
 #### Doubts
 - Does the size of the filters we use, always same as that of the input image?
