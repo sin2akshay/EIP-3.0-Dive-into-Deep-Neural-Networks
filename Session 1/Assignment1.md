@@ -74,7 +74,7 @@ In easier words, a feature map is produced when convolution is applied to the in
 ![Input matrix and kernel matrix](https://cdn-images-1.medium.com/max/800/1*cTEp-IvCCUYPTT0QpE3Gjg@2x.png)  
 We do the convolution using this filter and moving it over the input. The result goes into the feature map (3x3 matrix on right side) as shown below:  
 ![Animation | Feature Maps](https://cdn-images-1.medium.com/max/800/1*VVvdh-BUKFh2pwDD0kPeRA@2x.gif)  
-We perform multiple convolutions on the input image using different filters to generate different feature maps. These feature maps are stacked together to become the convolution layer.
+We perform multiple convolutions on the input image using different filters to generate different feature maps. These feature maps are stacked together to become the output convolution layer.
 ___
 ### Feature Engineering
 
