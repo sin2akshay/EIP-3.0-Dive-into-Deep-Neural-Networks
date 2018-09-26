@@ -51,9 +51,9 @@ Convolving an image with a 1x1(WXH) filter is called 1x1 Convolution. This proce
 Here, by increasing the number of such filters used we can control the depth of the output. Say, if we used 2 such filters:
 ![1x1 Convolution | 2 Filters](https://qph.fs.quoracdn.net/main-qimg-0b3c4bbc86cc5c73efb8dbf2c699265a)
 
-We can see from the below images, how 1x1 reduces the computational cost significantly. First lets see the case where we use a 5x5 filter and 32 is the number of filters used:
+We can see from the below images, how 1x1 reduces the computational cost significantly. First lets see the case where we use a 5x5 filter and 32 is the number of filters used:  
 ![Computational Cost - 5x5 Convolution](https://qph.fs.quoracdn.net/main-qimg-7df9c28f92d879d9f9e6d25f6f991a1e)  
-We can see above that ~120 Million computational steps was required. Now let's pass a 1x1 filter(16 number of filters) just before this process:
+We can see above that ~120 Million computational steps was required. Now let's pass a 1x1 filter(16 number of filters) just before this process:  
 ![Computational Cost - 1x1 and 5x5 Filter together](https://qph.fs.quoracdn.net/main-qimg-93361dde6ee02fb428e5df5416718c0c)  
 As we can see in the above image. Computational cost was reduced from ~120 Million to ~12.4 Million.
 ___
