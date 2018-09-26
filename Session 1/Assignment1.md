@@ -20,6 +20,8 @@
 - Deadline 1 hour before your next session.
 - You MUST use your own words while writing any of the above, if we find plagiarism, 0 marks would be awarded for that article.
 ___
+## AKSHAY KUMAR | EIP2 Batch1
+___
 ### Convolution
 In image processing, by convolution we mean, putting a matrix over another and then calculating the weighted sum of all pixel values. One of these matrices is an image and the other one is a kernel matrix. The kernel matrix is generally smaller than the image (3x3 is the standard).
 ![Convolution](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/1.JPG)
@@ -30,7 +32,7 @@ The Kernel matrix is moved over the image matrix to get the output matrix as sho
 We will see below how different Kernels affect the output image after the process of convolution takes place.
 ___
 ### Filters/Kernels
-Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Following are some of the examples: 
+Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Some common kernels can be found [here](https://en.wikipedia.org/wiki/Kernel_(image_processing)). Following are some of the examples: 
   
 __Simple Blur__  
 ![Simple Blur](http://aishack.in/static/img/tut/conv-simple-blur-result1.jpg)  
@@ -39,6 +41,10 @@ __Line Detection__
 __Edge Detection__  
 ![Edge Detection](http://aishack.in/static/img/tut/conv-edge-detection-result.jpg)
 ___
+### Epochs
+An epoch describes the number of times our algorithm has went over the whole dataset. Once our algorithm has seen all the samples(batches) from our dataset, we can say that an epoch has been completed. Generally, training a neural network involves multiple epochs to be completed.
+___
+### 1x1 Convolution
 
 ___
 #### References
@@ -47,3 +53,5 @@ ___
 - [Applications of Convolution in Image Processing Dhruv](https://www.youtube.com/watch?v=BQyMZ0caFbg)
 - [Image Filtering](http://machinelearninguru.com/computer_vision/basics/convolution/image_convolution_1.html)
 - [Image Kernels](http://setosa.io/ev/image-kernels/)
+- [Basic Image Processing](https://users.itk.ppke.hu/kep/Lectures/IPA_02_Convolution.pdf)
+- [What is a 1x1 convolution - Quora](http://qr.ae/TUGNbk)
