@@ -77,7 +77,7 @@ We do the convolution using this filter and moving it over the input. The result
 We perform multiple convolutions on the input image using different filters to generate different feature maps. These feature maps are stacked together to become the output convolution layer.
 ___
 ### Feature Engineering
-
+The success of our machine learning algorithm depends on how well we present the data to it. Algorithms cannot work on the data directly to give the desired results. They are not intelligent enough to extract the correct and meaningful features from our input data, hence the need for Feature Engineering. It is the process of transforming the raw data into meaningful features that better represents our problem. This results in our algorithm performing with greater accuracy to solve the problem.
 ___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
