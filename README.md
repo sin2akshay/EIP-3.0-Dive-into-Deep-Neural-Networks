@@ -1,4 +1,6 @@
 ### **External Internship Program 2.0** -  _Machine Learning for Deep Neural Networks_
+Hi, I have enrolled into an internship program that will teach me Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. I am hoping to complete all three phases and even try for Phase four. I will be updating the details of my progress here. The details of the program are mentioned below:
+
 ![Logo](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/EIP2-Wide.png?raw=true)  
   
 External Internship Program - **2.0**  
@@ -44,3 +46,25 @@ Session | Topic | Prerequisite | Completion Status
 15	| Policy Gradient Part II	| NIL
 16	| Evolution Strategies	| NIL
 `-` | Advanced Certification	| Successful Completion of Project 3
+  
+  
+### The Eligibility for the Phase II
+**Test-driven-Approach** - Every assignment is collected and marked. Every intern must have a cumulative score of more than 70% for the past 4 assignments to be eligible, without exception, for the Phase II and onwards. To start working on an individual project you'll need to have a firm grasp of the concepts covered till 4th session. Next phase focuses on much deeper concepts like complex model training, transfer learning, etc.  
+- Only if you are eligible for the next phase, the content will be available to you.  
+- Interns will be shuffled after the 4th session, and new batches will be assigned.  
+  
+### The Projects and Last 4 Sessions
+From the **5th session** onwards, you'd be **assigned individual** projects which would involve training your own neural network to solve a unique problem. We plan to finish 2 projects before your internship (Phase I and II) ends.  
+
+### The Certification
+You will be eligible for a completion certificate if you are able to finish 8 Sessions with project successfully completed, and your score is **50 percentile** and above. Only if your cumulative score is more than **70 percentile**, you will be eligible to proceed for the third Phase.  
+
+### The Third Phase
+EIP Version II will also cover **Reinforcement Learning**. We have clubbed LSTM and GANs with RL as there is much to be gained if we learn them together.  
+  
+To be frank, CNNs today are already commoditized and if you are looking for an edge, you must know how to write RL algorithms. Moreover, the process in CNN has sort of plateaued, and almost all older problems are being solved with RL.  
+  
+Phase III will have an RL project which will challenge your understanding and help you gain a working perspective.  
+
+### The Phase Four
+The Fourth Phase of the internship is **only for select few**. In EIP 1, we selected top 10% of the interns and worked with them to implement a much complex project end to end. Phase Four involved one-on-one sessions, where a mentor will help you with your guided research, execution and either "Deployment Mode - 1000 fps" or "Research Mode - Paper Publication". Phase Four will start in January 2019. Details about this session will be shared on time.  
