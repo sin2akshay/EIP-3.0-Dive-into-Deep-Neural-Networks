@@ -1,5 +1,6 @@
 ### **External Internship Program 2.0** -  _Machine Learning for Deep Neural Networks_
-Hi, I have enrolled into an internship program that will teach me Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. I am hoping to complete all three phases and even try for Phase four. I will be updating the details of my progress here. The details of the program are mentioned below:
+Hi, I have enrolled into an internship program that will teach me Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. I am looking forward to gaining a lot from this program. I hope to complete all three phases and even try for Phase four. I will be updating the details of my progress here. The details of the program are mentioned below:
+___
 
 ![Logo](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/EIP2-Wide.png?raw=true)  
   
