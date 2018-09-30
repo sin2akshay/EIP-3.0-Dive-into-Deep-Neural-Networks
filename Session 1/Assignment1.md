@@ -88,7 +88,15 @@ ___
 ## BONUS QUESTIONS
 
 ### Activation Function
+In an Artificial Neural Network, the activation function of a neuron defines the output of that neuron given a set of inputs.
 
+To understand this, we can say that this activation function is biologically inspired by the activities in our brain, where different neurons are fired/activated by different stimuli.
+
+![Neurons being activated by different stimuli](https://raw.githubusercontent.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/master/Session%201/_files/neuron.jpg)  
+
+For each different stimuli certain neurons fire. So within our brain, neurons are either firing or they are not. We can interpret this as a binary 'on' or 'off', 0 or 1. In sigmoid activation function the neuron can be between 0 and 1. So the more closer to 1, the more activated that neuron is and the closer to 0, the less activated that neuron is.   
+
+However, one of the most commonly used activation function ReLu(Rectified Liner Unit) transforms the input to the maximum of either 0 or the input itself. So, if input <= 0, then ReLu will transform the input to be 0 and if the number is > 0 then ReLu will just output the given input.
 
 
 ___
