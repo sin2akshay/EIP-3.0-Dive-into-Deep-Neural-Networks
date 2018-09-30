@@ -69,3 +69,7 @@ Phase III will have an RL project which will challenge your understanding and he
 
 ### The Phase Four
 The Fourth Phase of the internship is **only for select few**. In EIP 1, we selected top 10% of the interns and worked with them to implement a much complex project end to end. Phase Four involved one-on-one sessions, where a mentor will help you with your guided research, execution and either "Deployment Mode - 1000 fps" or "Research Mode - Paper Publication". Phase Four will start in January 2019. Details about this session will be shared on time.  
+___
+#### To do List:
+- [ ] Complete Assignment 1
+- [ ] Upload Session Notes
