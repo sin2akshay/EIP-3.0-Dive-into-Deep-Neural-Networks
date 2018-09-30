@@ -23,17 +23,18 @@ ___
 ## AKSHAY KUMAR | EIP2 Batch1
 
 ### Convolution
-In image processing, by convolution we mean, putting a matrix over another and then calculating the weighted sum of all pixel values. One of these matrices is an image and the other one is a kernel matrix. The kernel matrix is generally smaller than the image (3x3 is the standard).
+In neural networks, by convolution we mean, putting a matrix over another and then calculating the weighted sum of all pixel values. One of these matrices is an image and the other one is a kernel matrix. The kernel matrix is generally smaller than the image (3x3 is the standard).
 ![Convolution](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/1.JPG)
 
-The Kernel matrix is moved over the image matrix to get the output matrix as shown below. Here is how the Output Matrix is calculated:
+The Kernel matrix is moved over the image/channel to get the output as shown below. Here is how the Output Matrix/channel is calculated:
 ![Convolution Output1](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/3.JPG)
 ![Convolution Output2](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/4.JPG)
 We will see below how different Kernels affect the output image after the process of convolution takes place.
+
 ___
 ### Filters/Kernels
 Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Some common kernels can be found [here](https://en.wikipedia.org/wiki/Kernel_(image_processing)). Following are some of the examples: 
-  
+
 __Simple Blur__  
 ![Simple Blur](http://aishack.in/static/img/tut/conv-simple-blur-result1.jpg)  
 __Line Detection__  
@@ -60,10 +61,10 @@ ___
 ### 3x3 Convolution
 3x3 Convolution is the process of applying a 3x3 filter to the image. To deal with the depth and large number of computational steps required, people nowadays use 3x3 convolutions exclusively. When stacked together, they act as a larger receptive field as you can see in the image below. The 2nd convulation layer sees the image just like 5x5 layer convulation output layer.  
 ![3x3 Convolution](https://raw.githubusercontent.com/sin2akshay/EIP2-MLBLR/master/Session%201/_files/3x3Convolution.JPG)  
-  
+
 Here you can see how each pixel on the First Convulation output sees a 3x3 area from input image. Then each pixel on the second convolution sees the pixel on first convolution making the stack behave like a 5x5 filter and also reducing the computational cost which we will see below.  
 ![3x3 Convolution Stacked](https://github.com/sin2akshay/EIP2-MLBLR/blob/master/Session%201/_files/3x3Stacked.png?raw=true)  
-  
+
 Suppose we have an input image of dimensions HxWxC and we use convolutions with C number of filters to keep the depth same. Comparing the compuational cost between using a 7x7 convolution vs a 3 stack of 3x3 convolutions:  
 ![3x3 Convulution Stacked vs 7x7 Convolution](https://github.com/sin2akshay/EIP2-MLBLR/blob/master/Session%201/_files/3x3StackComputation.JPG?raw=true)
 ___
@@ -75,9 +76,35 @@ In easier words, a feature map is produced when convolution is applied to the in
 We do the convolution using this filter and moving it over the input. The result goes into the feature map (3x3 matrix on right side) as shown below:  
 ![Animation | Feature Maps](https://cdn-images-1.medium.com/max/800/1*VVvdh-BUKFh2pwDD0kPeRA@2x.gif)  
 We perform multiple convolutions on the input image using different filters to generate different feature maps. These feature maps are stacked together to become the output convolution layer.
+
 ___
 ### Feature Engineering
-The success of our machine learning algorithm depends on how well we present the data to it. Algorithms cannot work on the data directly to give the desired results. They are not intelligent enough to extract the correct and meaningful features from our input data, hence the need for Feature Engineering. It is the process of transforming the raw data into meaningful features that better represents our problem. This results in our algorithm performing with greater accuracy to solve the problem.
+The success of our machine learning algorithm depends on how well we present the data to it. Algorithms cannot work on the data directly to give the desired results. They are not intelligent enough to extract the correct and meaningful features from our input data, hence the need for Feature Engineering. It is the process of transforming the raw data into meaningful features that better represents our problem. This results in our algorithm performing with greater accuracy to solve the problem. we redo the process until we get the desired accuracy from our model.
+
+![Feature Engineering](https://raw.githubusercontent.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/master/Session%201/_files/featureengg.jpg)
+
+___
+
+## BONUS QUESTIONS
+
+### Activation Function
+
+
+
+___
+### How to create an account on GitHub and upload a sample project
+___
+### Receptive Field
+
+A receptive field in a CNN is a part of the input image, i.e. pixel grid that is visible to a feature/kernel during the sliding/convolution operation.
+
+___
+### 10 examples of use of MathJax in Markdown
+
+```
+\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
+```
+\\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
 ___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
@@ -95,3 +122,5 @@ ___
 #### Doubts
 - Does the depth of the convolution filter always matches the depth of the image?
 - Are all the filters same or different while convolving. Means if we are using 10 numbers of 3x3 filters, are all 10 different and would be giving different feature maps as output?
+- How do you know that at this layer we would use Max Pooling, instead of 3x3 convolution?
+- The notes mention,"We must add as many layers as needed to reach the required receptive field, and as we have learned, each time we add a convolution layer, our receptive field increases by 2x2. " Is this true? Even if we add a single 3x3 layer the output matrix would be generated after going through all the pixels of the input image.
