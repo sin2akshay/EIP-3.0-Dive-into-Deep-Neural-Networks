@@ -33,7 +33,7 @@ We will see below how different Kernels affect the output image after the proces
 
 ___
 ### Filters/Kernels
-Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Some common kernels can be found [here](https://en.wikipedia.org/wiki/Kernel_(image_processing)). Following are some of the examples: 
+Kernels or filters are small matrices that are used to apply some effects on the target image(matrix). The process of using these Kernels(matrix) and applying them on the target image is known as Convolution. The Kernel is a square matrix generally having odd number of rows and columns (3x3, 5x5, 7x7 ..). We use different types of kernels to apply different types of effects on the final output image like blurring, sharpening, outlining or embossing. These are also used in machine learning for extracting features from an image. Some common kernels can be found [here](https://en.wikipedia.org/wiki/Kernel_(image_processing)). Following are some of the examples:
 
 __Simple Blur__  
 ![Simple Blur](http://aishack.in/static/img/tut/conv-simple-blur-result1.jpg)  
@@ -93,18 +93,175 @@ ___
 
 ___
 ### How to create an account on GitHub and upload a sample project
+GitHub is an online browser based distributed version control system for software developers using the Git revision control system.
+
+## Create an account
+
+If you already have a Github.com account you are ready to get started. Otherwise, you can set up your free account by following these steps:
+
+1. Access Github.com. Go to the Github sign up page.
+2. Enter a username, valid email address, and password in the supplied field. Use at least one lowercase letter, one number, and seven characters. Then click Sign up for GitHub.
+3. Choose a plan. Select the Unlimited public repositories for free option.
+4. You will receive a verification email at the address provided.
+5. Click the emailed link to complete the verification process.
+6. You finished! Your GitHub account created!
+
+## Upload a sample project
+
+Once you’ve signed in, you’ll create a new repository to get started. Follow the below steps to upload project on github.
+
+1. Click the "New Repository" button in the "Your Repositories" pane on right side of the page.
+2. On the new repository screen, you need to give this repository a special name to generate your project repo and an optional description and homepage URL.
+3. Select the "Public" option to create a free public repo that anyone can access, or select the "Private" option to upgrade to a paid account and create a private repository.
+4. Click the "Create Repository" button to create your repo.
+5. You will get your github repo URL in both https and ssh network protocol. Copy the URL to add in your project later.
+6. Create sample project in your system. Go inside to that sample project by command prompt or terminal.
+7. Initialize the git using this command: git init
+8. Add remote url which you obtained in 5th Step using this command: git remote add origin URL
+9. Commit the code and add message to it using this command: git commit -m "Initial Commit"
+10. Pust the code to your github profile using this command: git push origin master
+11. Write this command to check your status of your repo: git status
+
+"master" is a default branch name.
+"origin" is a default remote repository name.
 ___
 ### Receptive Field
 
 A receptive field in a CNN is a part of the input image, i.e. pixel grid that is visible to a feature/kernel during the sliding/convolution operation.
 
+When dealing with higher order input such as images it is not possible to connect all neurons with each other. Instead we connect each neuron to a local region of input space.
+
+Receptive field is the region of input space that a particular feature is looking. Every neuron in conv layer represents a filter applied to previous layer. The area of the previous layer that this filter is applied to is called receptive field of that layer. This receptive field increases as we stack more conv layers.
+
 ___
 ### 10 examples of use of MathJax in Markdown
 
-```
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
-```
-\\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
+**1. Matrices**
+- Code:
+`
+    \begin{matrix}
+    1 & x & x^2 \\
+    1 & y & y^2 \\
+    1 & z & z^2 \\
+    \end{matrix}
+`
+- MathJax:
+$$
+    \begin{matrix}
+    1 & x & x^2 \\
+    1 & y & y^2 \\
+    1 & z & z^2 \\
+    \end{matrix}
+$$
+
+**2. Definitions by cases (piecewise functions)**
+- Code:
+`
+f(n) =
+\begin{cases}
+n/2,  & \text{if $n$ is even} \\
+3n+1, & \text{if $n$ is odd}
+\end{cases}
+`
+- MathJax:
+$$
+f(n) =
+\begin{cases}
+n/2,  & \text{if $n$ is even} \\
+3n+1, & \text{if $n$ is odd}
+\end{cases}
+$$
+
+**3. System of equations**
+- Code:
+`
+\left\{
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\
+a_2x+b_2y+c_2z=d_2 \\
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right.
+`
+- MathJax:
+$$
+\left\{
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\
+a_2x+b_2y+c_2z=d_2 \\
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right.
+$$
+
+**4. Pythagorean Theorem if $x$ and $y$ two vectors such that $x\bot y$ :**
+- Code:
+`
+\lVert x+y \rVert^2 = \lVert x \rVert^2 + \lVert y \rVert^2
+`
+- MathJax:
+$$
+\lVert x+y \rVert^2 = \lVert x \rVert^2 + \lVert y \rVert^2
+$$
+
+**5. Quadratic formula When $a≠0$, there are two solutions to $ax^2+bx+c=0$ and they are**
+- Code:
+`
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+`
+- MathJax:
+ $$
+ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+ $$
+
+**6. Square expansion**
+- Code:
+`
+(a+b)^2 = a^2 + b^2+ 2ab
+`
+- MathJax:
+$$
+(a+b)^2 = a^2 + b^2+ 2ab
+$$
+
+
+**7. Difference of squares**
+- Code:
+`
+(a+b)(a-b) = a^2-b^2
+`
+- MathJax:
+$$
+(a+b)(a-b) = a^2-b^2
+$$
+
+
+**8. Logarithm**
+- Code:
+`
+$y = \log_{b}(x)$ if and only if $x = b^y$ and $b\neq0$
+`
+- MathJax:
+$y = \log_{b}(x)$ if and only if $x = b^y$ and $b\neq0$
+
+
+**9. Sum of square of n natural numbers**
+- Code:
+`
+S_n^2 = \sum n(n+1)(2n+1)/6
+`
+- MathJax:
+$$
+S_n^2 = \sum n(n+1)(2n+1)/6
+$$
+
+**10. Convolution on two function**
+- Code:
+`
+(fg)(c) = \sum_{a} f(a).g(c-a)$$ $$or$$ $$(fg)(c) = \int_{-\infty}^{\infty}f(a).g(c-a)dc
+`
+- MathJax:
+$$(fg)(c) = \sum_{a} f(a).g(c-a)$$ $$or$$ $$(fg)(c) = \int_{-\infty}^{\infty}f(a).g(c-a)dc$$
 ___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
@@ -118,6 +275,7 @@ ___
 - [Deep Learning: Practice and Trends (NIPS 2017 Tutorial, parts I & II)](https://www.youtube.com/watch?v=YJnddoa8sHk&feature=youtu.be&t=1140)
 - CS231n Lecture 11 - ConvNets in practice [[Video]](https://youtu.be/dUTzeP_HTZg?t=1513) [[Lecture Notes - Page 40]](http://cs231n.stanford.edu/slides/2016/winter1516_lecture11.pdf)
 - [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
+- [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 ___
 #### Doubts
 - Does the depth of the convolution filter always matches the depth of the image?
