@@ -48,12 +48,11 @@ Below, we are going to listen to windows booting sound, then simple kernels/note
 
 ### Feature Extractors
 Now, look at the image below. We now have two simple kernels convolving on top of an image, and what they extract can be also be seen.  
-![Feature Extractor](https://ujwlkarn.files.wordpress.com/2016/08/giphy.gif)  
+![Feature Extractor](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/giphy.gif?raw=true)  
 
 ### The Alphabets of CNN.
 This is how the first basic kernels look like. They are the building blocks for more complicated features.  
 ![Filters](https://qph.fs.quoracdn.net/main-qimg-4bfdf63a4c5b24590f0deec9673eaee5-c)  
-  
 You can imagine how these similar kernels can be used to create complex features are shown below:  
 ![Kernels](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-10-at-12-58-30-pm.png)  
 
@@ -64,15 +63,15 @@ You can imagine how these similar kernels can be used to create complex features
 
 This is what convolution in-process looks like. What you are seeing is a 4x4 channel (purple in color) being convolved with 3x3 kernel (dark purple), and creating a new 2x2 output channel. You are looking at 9 product finally being summed up in the green output. These 9 numbers are picked randomly, but it is these 9 numbers are are training and hoping that they are extracting the edges/gradients/features we want. 
 
-Please notice that when a 3x3 kernel convolves over say 4x4 image/channel, we get an output of 2x2. So a drop of 2x2 in resolution. 
-![3x3 Convolution](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/5-3%20Convolution%20Small.gif?raw=true)
+Please notice that when a 3x3 kernel convolves over say 4x4 image/channel, we get an output of 2x2. So a drop of 2x2 in resolution.  
+![3x3 Convolution](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/5-3%20Convolution%20Small.gif?raw=true)  
   
-Similarly, when a 5x5 image/channel is convolved with a 3x3 kernel/filter, we get 3x3 as the output. Each kernel produces its own output/channel.
-
-Another way of looking at this is, each cell/pixel in the output/channel has "seen" 3x3 input, something we refer to an as receptive field.
-
+Similarly, when a 5x5 image/channel is convolved with a 3x3 kernel/filter, we get 3x3 as the output. Each kernel produces its own output/channel.  
+  
+Another way of looking at this is, each cell/pixel in the output/channel has "seen" 3x3 input, something we refer to an as receptive field.  
+  
 ### The receptive field and why do we always use 3x3 kernel
-![Receptive Field Small.gif](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/Receptive%20Field%20Small.gif?raw=true)
+![Receptive Field Small.gif](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/Receptive%20Field%20Small.gif?raw=true)  
 
 Scaling this up, we notice that 5x5, after convolution with a 3x3 kernel/filter, produces 3x3 channel/output/image, and when a 3x3 channel/image/output is convolved with another 3x3 kernel, the output is just 1x1 channel. That is, if we convolve 5x5 with a 5x5 kernel, we will get 1x1. So, if you want a 5x5 kernel, just perform two 3x3 convolutions. Three 3x3 equates to a 7x7 kernel, and so on. 3x3 is much more compute-friendly than a large kernel, and this is the reason why 3x3 is now used as a default. 
 
