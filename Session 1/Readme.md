@@ -87,8 +87,8 @@ Say our images are 400x400. As a CEO of a company would you want to talk to 400x
 
 So we need to move from 400x400 to 10x10 or cover 390x390 in receptive field. This is how things would progress each time we add a 3x3 convolution layer:  
 
-| a | a | a | a | a | a
-| --- | --- | --- | --- | --- | --- 
+| | | | | | |
+|-|-|-|-|-|-|
 | 400x400 | 398x398 | 396x396 | 394x394 | 392x392 | 390x390 
 
 and so on. If we naively keep on add layers we would end up with 390/2 = 195 layers. 195 layer network is a huge network. If we add these many layers, we'd need a really expensive GPU to handle such a network. We need to be smarter than this. 
@@ -126,11 +126,13 @@ From 195 to 28 layers, impressive, isn't it?
 
 Now, let's look at the channels again. 
 
-In the first layer, we would be convolving with 32 3x3 kernels and then with 64. 
+In the first layer, we would be convolving with 32 3x3 kernels and then with 64.
+
 |Input Channels|Kernel|Output Channels|
 |--------------|------|---------------|
 400x400|3x3, 32|398x398, 32|
 398x398, 32 |3x3, 64 |396x396, ??|
+
 The question we need to ask ourselves is, how many channel second layer would create. The answer is 64, but what exactly is happening to those 32 channels in the input space? 
 
 We add layers because we want to make complex compound feature extractors. To make an eye detector/extractor, we need to mix an arc detector, an inverted arc detector and a black ball/circle detector. All these simpler features would be available in different channels. This means any kernel we add, MUST interact with all the channels available in the input space. The table above must be re-written as below:  
@@ -138,6 +140,7 @@ We add layers because we want to make complex compound feature extractors. To ma
 |----------------|--------|-----------------|
 400x400, 1|[3x3, 1], 32|398x398, 32|
 398x398, 32|[3x3, 32], 64|396x396x64|
+
 Our 3x3 kernel MUST have 32 channels to be able to interact with 32 channels in the input space.  
 
 In the animation below you can see a 5x5 input with 3 channel being convolved with 4 3x3 kernels, and those 3x3 kernels themselves have 3 channels.  
@@ -160,22 +163,26 @@ Look at this table:
 You see the last layer output? 390x390, 512 just too many parameters, and if do not do something now our network will blow up and our GPU is going to scream OOM (out of memory). 
 
 No one stopped us from using as many kernels as we want, so no one is stopping us from doing this:
+
 ||||
 |-|-|-|
 390x390, 512|	[3x3, 512], 64|	388x388, 64|
+
 This is good as this is allowing us to reduce the number of channels, but 3x3 is going to reinterpret the data. We do not want that. And like we can use any number of kernels, we can also use a new size kernel:
+
 ||||
 |-|-|-|
 |390x390, 512|	[1x1, 512], 64|	390x390, 64|
+
 1x1 is a great kernel. It can only look at one pixel at a time, so it is not interpreting local data, but combining whole channels. Back-propagation works in sync and makes sure that 1x1 only combines those channels which are related to each other semantically. This is how 1x1 kernel convolution looks like:  
-![1x1-min.gif](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/1x1-min.gif?raw=true)
-
- 
-
+![1x1-min.gif](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/1x1-min.gif?raw=true)  
+  
 This is what is happening above:
+
 ||||
 |-|-|-|
 32x32, 10|	[1x1, 10], 4|	32x32, 4|
+  
 ### Sample Neural Network
 Let's write a pseudo code for a simple CNN on MNIST dataset
 `
