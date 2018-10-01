@@ -136,6 +136,7 @@ In the first layer, we would be convolving with 32 3x3 kernels and then with 64.
 The question we need to ask ourselves is, how many channel second layer would create. The answer is 64, but what exactly is happening to those 32 channels in the input space? 
 
 We add layers because we want to make complex compound feature extractors. To make an eye detector/extractor, we need to mix an arc detector, an inverted arc detector and a black ball/circle detector. All these simpler features would be available in different channels. This means any kernel we add, MUST interact with all the channels available in the input space. The table above must be re-written as below:  
+
 | Input Channels | Kernel | Output Channels |
 |----------------|--------|-----------------|
 | 400x400, 1 | [3x3, 1], 32 | 398x398, 32 |
