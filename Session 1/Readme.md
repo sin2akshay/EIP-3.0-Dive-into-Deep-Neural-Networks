@@ -185,8 +185,8 @@ This is what is happening above:
   
 ### Sample Neural Network
 Let's write a pseudo code for a simple CNN on MNIST dataset
-`
-Input(28x28x1)  
+
+> Input(28x28x1)  
 Conv2D(32, 3, 3, act=ReLU) >?  
 MaxPooling(2) >?  
 Activation (ReLU) << Useless here.   
@@ -194,17 +194,17 @@ Conv2D(10, 1, 1, act=ReLU) Perfectly OK
 Conv2D(10, 13, 13, act=None) >?  
 SoftMax()  
 Compile/Fit/Optimise  
-`
+
 Code is self explanatory, but we have adding "act" or activation function above. We (covered activation function in the class) will cover activation in much more detail in Session 3, but for now, just think that, an activation function help us decide which information should be filtered and which one shouldn't. 
 
 The way we write a similar CNN in Keras would look like this: 
-`
-model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1)))
-model.add(Convolution2D(10, 1, activation='relu'))
-model.add(Convolution2D(10, 26))
-model.add(Flatten())
-model.add(Activation('softmax'))
-`
+
+> model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1)))  
+model.add(Convolution2D(10, 1, activation='relu'))  
+model.add(Convolution2D(10, 26))  
+model.add(Flatten())  
+model.add(Activation('softmax'))  
+
 This is a really bad network, but check this code working at this link:  
 [bit.ly/2IBqQJD](bit.ly/2IBqQJD)  
 This bad code gets 99.62% accuracy! And on validation set, it gets 98.29% accuracy. This is the real power of a DNN/CNN.  
