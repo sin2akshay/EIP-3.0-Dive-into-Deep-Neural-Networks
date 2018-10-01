@@ -138,8 +138,8 @@ The question we need to ask ourselves is, how many channel second layer would cr
 We add layers because we want to make complex compound feature extractors. To make an eye detector/extractor, we need to mix an arc detector, an inverted arc detector and a black ball/circle detector. All these simpler features would be available in different channels. This means any kernel we add, MUST interact with all the channels available in the input space. The table above must be re-written as below:  
 | Input Channels | Kernel | Output Channels |
 |----------------|--------|-----------------|
-|400x400, 1|[3x3, 1], 32|398x398, 32|
-|398x398, 32|[3x3, 32], 64|396x396x64|
+| 400x400, 1 | [3x3, 1], 32 | 398x398, 32 |
+| 398x398, 32 | [3x3, 32], 64 | 396x396x64 |
 
 Our 3x3 kernel MUST have 32 channels to be able to interact with 32 channels in the input space.  
 
