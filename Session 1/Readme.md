@@ -33,8 +33,8 @@ In the first experiment, we inject a cat with radioactive glucose and hope to se
 
 What we observe is that the image which the cat saw, got actually "printed" on the head. This is fascinating as this tells us that images what we see are first physically drawn inside our head. 
 
-In the second experiment, we connect a few electrodes again on the region of the brain used for viewing and observe that there are some neurons which fire if an edge at a particular angle is shown. These neurons will fire if and only if they observe a particular edge, else remain silent. 
-![Experiment2](http://www.utdallas.edu/~tres/integ/sen4/8_05.jpg)
+In the second experiment, we connect a few electrodes again on the region of the brain used for viewing and observe that there are some neurons which fire if an edge at a particular angle is shown. These neurons will fire if and only if they observe a particular edge, else remain silent.  
+![Experiment2](http://www.utdallas.edu/~tres/integ/sen4/8_05.jpg)  
 
 Combining these two experiments give us some idea of what is happening. First, the image is "sort-of" printed inside our heads, and then neuron under this print-area fires if the print happens to be similar to the feature they were expecting, like horizontal or vertical edge.
 
@@ -43,22 +43,19 @@ What we want to focus here is "small features". We need to deconstruct the image
 What is also important here is to remember that we need to maintain a separate channel for any feature. A kernel or feature extractor or filter extracts features and then these features are stored in a channel or a feature map (which we will call image as well).
 
 ### Understanding features through music
-Below, we are going to listen to windows booting sound, then simple kernels/notes which make up that sound and then perform convolution and then hear what they extract. Kernels/notes themselves are boring, but what they extract is beautiful!
-[[Youtube Video]](https://www.youtube.com/watch?v=ILvq4kmjk5g)
+Below, we are going to listen to windows booting sound, then simple kernels/notes which make up that sound and then perform convolution and then hear what they extract. Kernels/notes themselves are boring, but what they extract is beautiful!  
+[[Youtube Video]](https://www.youtube.com/watch?v=ILvq4kmjk5g)  
 
 ### Feature Extractors
-Now, look at the image below. We now have two simple kernels convolving on top of an image, and what they extract can be also be seen. 
-![Feature Extractor](https://ujwlkarn.files.wordpress.com/2016/08/giphy.gif)
+Now, look at the image below. We now have two simple kernels convolving on top of an image, and what they extract can be also be seen.  
+![Feature Extractor](https://ujwlkarn.files.wordpress.com/2016/08/giphy.gif)  
 
 ### The Alphabets of CNN.
-This is how the first basic kernels look like. They are the building blocks for more complicated features. 
-![Filters](https://qph.fs.quoracdn.net/main-qimg-4bfdf63a4c5b24590f0deec9673eaee5-c)
-
-
- 
-
-You can imagine how these similar kernels can be used to create complex features are shown below:
-![Kernels](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-10-at-12-58-30-pm.png)
+This is how the first basic kernels look like. They are the building blocks for more complicated features.  
+![Filters](https://qph.fs.quoracdn.net/main-qimg-4bfdf63a4c5b24590f0deec9673eaee5-c)  
+  
+You can imagine how these similar kernels can be used to create complex features are shown below:  
+![Kernels](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-10-at-12-58-30-pm.png)  
 
 ## CNN Concepts
   
