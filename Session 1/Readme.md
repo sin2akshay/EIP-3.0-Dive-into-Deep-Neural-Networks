@@ -85,7 +85,7 @@ We must add as many layers as needed to reach the required receptive field, and 
 ### Let's build a network
 Say our images are 400x400. As a CEO of a company would you want to talk to 400x400 people? Probably you'd rather want a group max, say, of 100 people whom you'd talk and hope that they, each in return get more information from 100s of more people reporting to them. In DNN/CNN this number is generally 128, 256, 512, 1024 or 2048 depending on how accurate you want your network to be. We will consider 100, for easy calculations here. 
 
-So we need to move from 400x400 to 10x10 or cover 390x390 in receptive field. This is how things would progress each time we add a 3x3 convolution layer:
+So we need to move from 400x400 to 10x10 or cover 390x390 in receptive field. This is how things would progress each time we add a 3x3 convolution layer:  
 | | | | | | |
 |-|-|-|-|-|-|
 |400x400 | 398x398 | 396x396 | 394x394 | 392x392 | 390x390
