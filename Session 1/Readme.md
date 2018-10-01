@@ -87,8 +87,8 @@ Say our images are 400x400. As a CEO of a company would you want to talk to 400x
 
 So we need to move from 400x400 to 10x10 or cover 390x390 in receptive field. This is how things would progress each time we add a 3x3 convolution layer:  
 |`-`|`-`|`-`|`-`|`-`|`-`|
-|-|-|-|-|-|-|
-|400x400 | 398x398 | 396x396 | 394x394 | 392x392 | 390x390
+|---|---|---|---|---|---|
+| 400x400 | 398x398 | 396x396 | 394x394 | 392x392 | 390x390 |
 and so on. If we naively keep on add layers we would end up with 390/2 = 195 layers. 195 layer network is a huge network. If we add these many layers, we'd need a really expensive GPU to handle such a network. We need to be smarter than this. 
   
 ### The Pyramids
