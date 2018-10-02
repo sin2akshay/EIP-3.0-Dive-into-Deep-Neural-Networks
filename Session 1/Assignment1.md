@@ -1,4 +1,4 @@
-# _ASSIGNMENT 1_
+# ASSIGNMENT 1 | EIP 2 | Batch 1
 - Download Typora (or any markdown editor you prefer)
 - You can refer this link to learn about markdown: [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 - Write articles on the topics mentioned below between 50-100 words in a markdown format and upload it on the LMS (would be soon made enabled)
@@ -272,7 +272,18 @@ $$
 (fg)(c) = \sum_{a} f(a).g(c-a)$$ $$or$$ $$(fg)(c) = \int_{-\infty}^{\infty}f(a).g(c-a)dc
 `
 - MathJax:
-$$(fg)(c) = \sum_{a} f(a).g(c-a)$$ $$or$$ $$(fg)(c) = \int_{-\infty}^{\infty}f(a).g(c-a)dc$$
+$$
+(fg)(c) = \sum_{a} f(a).g(c-a)
+$$
+
+$$
+or
+$$
+
+$$
+(fg)(c) = \int_{-\infty}^{\infty}f(a).g(c-a)dc
+$$
+
 ___
 #### References
 - [Ludwig_ImageConvolution.ppt](http://web.pdx.edu/~jduh/courses/Archive/geog481w07/Students/Ludwig_ImageConvolution.pdf)
