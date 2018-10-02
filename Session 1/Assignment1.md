@@ -139,11 +139,9 @@ Now, let's upload a sample project to the GitHub account we just created. There 
 ___
 ### Receptive Field
 
-A receptive field in a CNN is a part of the input image, i.e. pixel grid that is visible to a feature/kernel during the sliding/convolution operation.
+A receptive field in a CNN is a part of the input image, i.e. pixel grid that is visible to a feature/kernel during the sliding/convolution operation. This is equal to the kernel/filter size. This receptive field increases linearly as we stack more convolutional layers.
 
-When dealing with higher order input such as images it is not possible to connect all neurons with each other. Instead we connect each neuron to a local region of input space.
-
-Receptive field is the region of input space that a particular feature is looking. Every neuron in conv layer represents a filter applied to previous layer. The area of the previous layer that this filter is applied to is called receptive field of that layer. This receptive field increases as we stack more conv layers.
+Each unit in a hidden layer is only connected to a small number of units in the previous layer. For instance a node in the first hidden layer will only be connected to a small patch of region of the input image which is the receptive field of that layer.
 
 ___
 ### 10 examples of use of MathJax in Markdown
