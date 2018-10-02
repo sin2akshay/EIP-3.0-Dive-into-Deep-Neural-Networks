@@ -103,35 +103,39 @@ ___
 ### How to create an account on GitHub and upload a sample project
 GitHub is an online browser based distributed version control system for software developers using the Git revision control system.
 
-## Create an account
+#### Creating a [GitHub](https://github.com/) account
 
-If you already have a Github.com account you are ready to get started. Otherwise, you can set up your free account by following these steps:
+GitHub is a web-based hosting service for version control using Git. It is most popular version control service in use right now. There are many alternatives that use Git to do version control but we will focus here on GitHub. To create an account:
 
-1. Access Github.com. Go to the Github sign up page.
-2. Enter a username, valid email address, and password in the supplied field. Use at least one lowercase letter, one number, and seven characters. Then click Sign up for GitHub.
-3. Choose a plan. Select the Unlimited public repositories for free option.
-4. You will receive a verification email at the address provided.
-5. Click the emailed link to complete the verification process.
-6. You finished! Your GitHub account created!
+1. Open [GitHub](https://github.com/). Enter a username, valid email address, and password as shown and then Click on the 'Sign up for GitHub' button.  
+![Github1](https://1.bp.blogspot.com/-bC63hPldlrA/W7OmCTSS0hI/AAAAAAAAXYY/xcZzGvMNtisisYE3JJlCou6YvHXjAmXLACLcBGAs/s640/Github2.png)  
+2. You will be redirected to the below shown page. Here you might be asked to solve a simple puzzle to prove that you are a real person. Complete the puzzle and click the 'Create an account' button.  
+![Github2](https://4.bp.blogspot.com/-u8RinxNBa3A/W7OmCTytVkI/AAAAAAAAXYc/Fz_-ZSmhZJwRqPwyIoRHRgWHAJ5TPsr-wCLcBGAs/s640/Github3.png)  
+3. In the next screen you will be asked to choose your personal plan. We will leave it at default which is free. Leave the 2 checkboxes on bottom unchecked and click on the 'Continue' button.  
+4. In the third screen you will be asked to select you interests, it is also optional and can be skipped. Click Continue and Congratulations! Your GitHub account has been created.  
 
-## Upload a sample project
 
-Once you’ve signed in, you’ll create a new repository to get started. Follow the below steps to upload project on github.
+#### Uploading a sample project
 
-1. Click the "New Repository" button in the "Your Repositories" pane on right side of the page.
-2. On the new repository screen, you need to give this repository a special name to generate your project repo and an optional description and homepage URL.
-3. Select the "Public" option to create a free public repo that anyone can access, or select the "Private" option to upgrade to a paid account and create a private repository.
-4. Click the "Create Repository" button to create your repo.
-5. You will get your github repo URL in both https and ssh network protocol. Copy the URL to add in your project later.
-6. Create sample project in your system. Go inside to that sample project by command prompt or terminal.
-7. Initialize the git using this command: git init
-8. Add remote url which you obtained in 5th Step using this command: git remote add origin URL
-9. Commit the code and add message to it using this command: git commit -m "Initial Commit"
-10. Pust the code to your github profile using this command: git push origin master
-11. Write this command to check your status of your repo: git status
+Now, let's upload a sample project to the GitHub account we just created. There is an excellent intro guide for GitHub in this [link](https://guides.github.com/activities/hello-world/). You can use the GitHub website to create a repository and upload your project files. You can also upload your project via Command line as shown [here](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/). But for the simplicity, we are going to do it via GitHub Desktop.
 
-"master" is a default branch name.
-"origin" is a default remote repository name.
+1. Go to https://desktop.github.com/ and Download GitHub Desktop for whichever platform you are using.
+![GitHubDesktop](https://3.bp.blogspot.com/-zDuWmin-cEA/W7PEbbfmo5I/AAAAAAAAXZI/vqnpGgQghKYA5icx-YHR5qSDh2fHKUsCQCLcBGAs/s640/GithubDesktop1.png)
+2. Install the software using the downloaded setup and open GitHub Desktop.
+3. Now to upload a project, first we need to create a repository. Click on File > New Repository inside GitHub Desktop. Select the local path where your project is or just give a path here and move your files to it later. Here we will move project files to it later.  
+![](https://1.bp.blogspot.com/-NN7g3nT1wU4/W7PEbTNxwuI/AAAAAAAAXY8/cR5Zh6KgrIwHR3DHFSCwlZQmePL08_PtQCLcBGAs/s640/GithubDesktop2.png)  
+4. After filling all the details, click the Create Repository button. Now this repository has been created into your local. To make it available on GitHub.com, you will have to Publish this repository. Click on the Publish repository button on top right on which you will get the below screen.
+![](https://4.bp.blogspot.com/-qHyG-0xGz_Q/W7PEdUv7mMI/AAAAAAAAXZY/KcIa61alkFo8nENHkPpKvU__-1nWXutMQCLcBGAs/s640/GithubNew3.png)  
+5. Uncheck the Keep Code Private checkbox (Premium user feature) and click the 'Publish repository button. Your repository has been published to your GitHub account. To check go to GitHub.com and login to your account. After logging in, click on your avatar on the right and select 'Your Repositories'   ![](https://2.bp.blogspot.com/-Uh6leW6Iiyk/W7PEdy2oAPI/AAAAAAAAXZc/eMpLhgiGsBkxr7GRArIyKnBq3Oy-bG8CACLcBGAs/s320/GithubNew5.png)  
+6. Now as you can see, your repository has been created:  
+![](https://1.bp.blogspot.com/-VtydBJppzxQ/W7PEbd8b4kI/AAAAAAAAXZA/5y8k0DCw0oUVBQKtZqHR-EVCb0CeEvcDgCLcBGAs/s640/GitHubNew4.png)  
+7. Let's add some files to this repository. Go to the project/repository path and add your project files. Now go to GitHub Desktop. There you will see the list of changes. On the bottom there is a box to feel Commit message and description, fill it. Now we will commit it to master (since we have no branches, we are only using master here), click the Commit to master button.  
+![](https://2.bp.blogspot.com/-X9oO2MzqFLM/W7PEeHvOCcI/AAAAAAAAXZg/bK8Zd54orqsP9CGVCASHivOuwcbT3jBdACLcBGAs/s640/GithubNew6.png)  
+8. Now your commit has been made but we still have to push the change to our GitHub.com repository. In the History tab you can see all the commits and on the top right you can see that it is showing 1 commit needs to be pushed. Click on the Push Origin button.  
+![](https://4.bp.blogspot.com/-BQ86piRZSXU/W7PEetcYPHI/AAAAAAAAXZo/b617KH7xcE8sD21K4Ya-Xmqj2vhW7wFhACLcBGAs/s640/GithubNew7.png)  
+9. Now refresh the repository page and you will be able to see the changes available on Github.com. Congratulations, you just learnt to upload a project to GitHub.
+![](https://4.bp.blogspot.com/-diiCeQrBj4w/W7PEejb-LjI/AAAAAAAAXZk/5pAJtOu4IHIHH56jYY_tmNyb-pTYKkfoQCLcBGAs/s640/GithubNew8.png)
+
 ___
 ### Receptive Field
 
