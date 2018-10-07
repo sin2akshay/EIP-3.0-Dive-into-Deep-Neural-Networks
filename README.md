@@ -30,7 +30,7 @@ EIP Version II is divided into 3 phases. You need to clear the exam at the end o
 Session | Topic | Prerequisite | Completion Status
 ------- | ----- | ------------ | -----------------
 1	| ML Basics & 1st DNN HandsOn	| NIL | :heavy_check_mark:
-2	| Math & Python Foundation	| NIL
+2	| Math & Python Foundation	| NIL | :heavy_check_mark:
 3	| Convolution Foundations	| NIL
 4	| Deeper Insights	| NIL
 5	| Advanced Concepts Part I & Project 1A	| Phase 1 Exam and Assignment
