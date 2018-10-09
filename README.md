@@ -31,7 +31,7 @@ Session | Topic | Prerequisite | Completion Status
 ------- | ----- | ------------ | -----------------
 1	| ML Basics & 1st DNN HandsOn	| NIL | :heavy_check_mark:
 2	| Math & Python Foundation	| NIL | :heavy_check_mark:
-3	| Convolution Foundations	| NIL
+3	| Convolution Foundations	| NIL | :heavy_check_mark:
 4	| Deeper Insights	| NIL
 5	| Advanced Concepts Part I & Project 1A	| Phase 1 Exam and Assignment
 6	| Advanced Concepts Part II & Project 1B	| NIL
@@ -73,3 +73,9 @@ ___
 #### To do List:
 - [X] Complete Assignment 1
 - [X] Upload Session 1 Notes 
+- [X] Complete Session 2 Assignments
+- [ ] Upload Session 2 Assignments
+- [ ] Upload Session 2 Notes
+- [ ] Complete Session 3 Assignments
+- [ ] Upload Session 3 Assignments
+- [ ] Upload Session 3 Notes
