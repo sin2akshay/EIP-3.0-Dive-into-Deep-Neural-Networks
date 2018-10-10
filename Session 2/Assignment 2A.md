@@ -1,6 +1,6 @@
 
 ## Assignment
-#### 2A: REFERENCE change all the random values and redo the assignment in markdown format.
+#### 2A: [REFERENCE](https://www.analyticsvidhya.com/blog/2017/05/neural-network-from-scratch-in-python-and-r/) change all the random values and redo the assignment in markdown format.
 
 ___
 ### Visualization of steps for Neural Network methodology
