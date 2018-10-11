@@ -26,9 +26,8 @@ ___
 In neural networks, by convolution we mean, putting a matrix over another and then calculating the weighted sum of all pixel values. One of these matrices is an image and the other one is a kernel matrix. The kernel matrix is generally smaller than the image (3x3 is the standard).
 ![Convolution](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/1.JPG)
 
-The Kernel matrix is moved over the image/channel to get the output as shown below. Here is how the Output Matrix/channel is calculated:
-![Convolution Output1](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/3.JPG)
-![Convolution Output2](http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/4.JPG)
+The Kernel matrix is moved over the image/channel to get the output as shown below. Here is how the Output Matrix/channel is calculated:  
+![Convolution3x3](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/ezgif-2-458c45488907.gif?raw=true)  
 We will see below how different Kernels affect the output image after the process of convolution takes place.
 
 ___
