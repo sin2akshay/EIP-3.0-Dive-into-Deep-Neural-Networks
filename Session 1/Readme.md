@@ -210,3 +210,7 @@ This is a really bad network, but check this code working at this link:
 [bit.ly/2IBqQJD](bit.ly/2IBqQJD)  
 This bad code gets 99.62% accuracy! And on validation set, it gets 98.29% accuracy. This is the real power of a DNN/CNN.  
 I urge you to look at the code and try and reduce the number of parameters and try and also increase the validation accuracy to ~99.6. It is important to get a "feel" of how to train a DNN and what all can be changed. So start playing with it!
+
+___
+Good Blog Post to understand CNN clearly:  
+https://engmrk.com/convolutional-neural-network-3/
