@@ -52,3 +52,5 @@ As in the class, we will cover these videos in sequence to understand BackProp:
 ### Assignment 2
 1. Refer to this link [[AnalyticsVidhya]](https://www.analyticsvidhya.com/blog/2017/05/neural-network-from-scratch-in-python-and-r/), change all the "random values" we used to initialize our weights, and then write the tables again. Follow the description shared in the class.  (Links to an external site.)Links to an external site.
 2. This [[link]](https://github.com/machinelearningblr/machinelearningblr.github.io/blob/master/tutorials/CS231n-Materials/CS231n-python-numpy-tutorial.ipynb) would cover most of the Python you'd need to know. Submit this file in .pynb format. None of the variables used in this link should be the same as yours. 
+___
+Softmax Regression with example: https://engmrk.com/softmax-regression/
