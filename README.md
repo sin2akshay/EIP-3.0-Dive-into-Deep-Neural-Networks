@@ -79,3 +79,5 @@ ___
 - [ ] Complete Session 3 Assignments
 - [ ] Upload Session 3 Assignments
 - [ ] Upload Session 3 Notes
+___
+[![HitCount](http://hits.dwyl.io/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks.svg)](http://hits.dwyl.io/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks)
