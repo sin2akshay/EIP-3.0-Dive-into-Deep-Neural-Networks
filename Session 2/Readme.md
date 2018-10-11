@@ -46,7 +46,7 @@ As in the class, we will cover these videos in sequence to understand BackProp:
 **Video 3**  
 [What is backpropagation really doing? | Deep learning, chapter 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U)  
   
-**Video 3**  
+**Video 4**  
 [Backpropagation calculus | Deep learning, chapter 4](https://www.youtube.com/watch?v=tIeHLnjs5U8)  
   
 ### Assignment 2
