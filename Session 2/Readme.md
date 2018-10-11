@@ -22,10 +22,10 @@ These kernels are now "normalized":
 ### Softmax
 You'd remember softmax from our Session 1 code:
 
->model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1))) 
-model.add(Convolution2D(10, 1, activation='relu')) 
-model.add(Convolution2D(10, 26)) model.add(Flatten()) 
-model.add(Activation('softmax'))
+>model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1)))  
+model.add(Convolution2D(10, 1, activation='relu'))  
+model.add(Convolution2D(10, 26)) model.add(Flatten())  
+model.add(Activation('softmax'))  
 
 Few people blatantly refer to softmax as Probability. The only common thing it shares with probability is that it's output scores for all the classes sums up to 1. But not all things which sum up to 1 is a probability.  
 #### What is SoftMax?
