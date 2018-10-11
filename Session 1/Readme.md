@@ -212,5 +212,4 @@ This bad code gets 99.62% accuracy! And on validation set, it gets 98.29% accura
 I urge you to look at the code and try and reduce the number of parameters and try and also increase the validation accuracy to ~99.6. It is important to get a "feel" of how to train a DNN and what all can be changed. So start playing with it!
 
 ___
-Good Blog Post to understand CNN clearly:  
-https://engmrk.com/convolutional-neural-network-3/
+Good Blog Post explaining some of the CNN concepts clearly: [Convolutional Neural Network – In a Nut Shell](https://engmrk.com/convolutional-neural-network-3/)
