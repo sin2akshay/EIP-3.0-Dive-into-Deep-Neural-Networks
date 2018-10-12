@@ -75,7 +75,7 @@ ___
 - [X] Upload Session 1 Notes 
 - [X] Complete Session 2 Assignments
 - [ ] Upload Session 2 Assignments
-- [ ] Upload Session 2 Notes
+- [X] Upload Session 2 Notes
 - [ ] Complete Session 3 Assignments
 - [ ] Upload Session 3 Assignments
 - [ ] Upload Session 3 Notes
