@@ -121,7 +121,7 @@ What you see here is Max-pooling at 3x3 scale. We nearly always perform Maxpooli
 These numbers are the "loudest", the class monitors of their classes, representing the rest of the numbers. 
 
 If we build our network again, we'd be using many fewer layers:  
-![NetworkMatrix](https://raw.githubusercontent.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/master/Session%201/_files/Network%20Matrix.JPG)  
+![NetworkMatrix](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%201/_files/Network%20Matrix.JPG?raw=true)  
 From 195 to 28 layers, impressive, isn't it?
 
 Now, let's look at the channels again. 
