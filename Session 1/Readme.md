@@ -213,3 +213,4 @@ I urge you to look at the code and try and reduce the number of parameters and t
 
 ___
 Good Blog Post explaining some of the CNN concepts clearly: [Convolutional Neural Network – In a Nut Shell](https://engmrk.com/convolutional-neural-network-3/)
+https://colab.research.google.com/drive/17WQsYjRhZUinjRsXrlzPSPrizKIc31Am
