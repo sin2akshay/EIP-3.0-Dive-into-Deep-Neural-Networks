@@ -98,7 +98,7 @@ What all do we need to consider?
    - Custom Loss Function
 
 5. Regularization
-   - DropOut
+   - DropOut [Not used now]
    - Label Smoothing (non-intuitive awesomeness)
 
 6. Normalization
