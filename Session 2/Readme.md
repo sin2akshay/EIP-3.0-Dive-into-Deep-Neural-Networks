@@ -1,6 +1,7 @@
-
 # Session 2 | Back Propagation & Misc
-We cover Back Propagation and misc topics here. 
+We cover Back Propagation and misc topics here.
+_**Session Date:** 2nd March_  
+_**Assignment Deadline:** 9th March_ 
 
 ### Kernel Normalization
 ![CNN Filter](https://github.com/sin2akshay/External-Internship-Program-2.0-Machine-Learning-for-Deep-Neural-Networks/blob/master/Session%202/_files/cnnfilter.jpg?raw=true)  
