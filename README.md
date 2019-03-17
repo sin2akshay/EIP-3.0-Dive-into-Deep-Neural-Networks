@@ -1,7 +1,15 @@
-### **External Internship Program** -  _Dive into Deep Neural Networks_
+## **External Internship Program** -  _Dive into Deep Neural Networks_
 <p align="center">
   <img width="460" height="300" src="https://4.bp.blogspot.com/-jfw_hLEXKII/XI27d5rxeOI/AAAAAAAAYmE/iV05TysWKlAOM6jg7kV28-k7osbVfN3IACLcBGAs/s1600/EIP3.png">
 </p>
+  
+<p float="center">
+  <img src="https://1.bp.blogspot.com/-6SbS15aFhHg/XI29kcqBcdI/AAAAAAAAYmQ/f4gZDyRzTUM4dw-MGKSiuPTmLoTR08q6wCLcBGAs/s1600/nvidia.png" width="200" />
+  <img src="https://2.bp.blogspot.com/-kQOgbvDO5xk/XI29kbjm5mI/AAAAAAAAYmY/pRL3bUiGSAUM1qjqd-rnbmd2YAxUgkoaQCLcBGAs/s1600/NASSCOM.png" width="200" />
+  <img src="https://1.bp.blogspot.com/-RgpqmU7d4aE/XI29kSxsH0I/AAAAAAAAYmU/MuJyTjXubpko2ywatNFdUy2uCKUH4ozWgCLcBGAs/s1600/Ktech.png" width="200" /> 
+  <img src="https://2.bp.blogspot.com/-ym4HVFpGw6s/XI293VubjFI/AAAAAAAAYmo/Aok3kIF6KKQQS9wva7Q81ot7pY0Rl2LUwCLcBGAs/s1600/DCAI.png" width="200" />
+</p>
+  
 Hi, I have enrolled into an internship program that will teach me Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. This is a **fast paced** program and won't be dealing with topics that are irrelevant in the industry today. I am looking forward to gaining a lot from this program. I hope to complete all three phases and even try for Phase four. I will be updating the details of my progress here. The details of the program are mentioned below:
 ___
   
