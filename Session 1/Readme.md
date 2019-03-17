@@ -1,4 +1,7 @@
 # Session 1 | ML Basics
+_**Session Date:** 23rd February_  
+_**Assignment Deadline:** 2nd March_  
+
 ## Machine Learning Basics & 1st CNN HandsOn
 Session 1 will cover the basics of Convolution Neural Networks. Session 1 content can be categorized as "medium to advance" w.r.t. difficult level. The idea here is to present these concepts right away, so we can repeat them later on with some pre-built background. 
 
@@ -213,4 +216,3 @@ I urge you to look at the code and try and reduce the number of parameters and t
 
 ___
 Good Blog Post explaining some of the CNN concepts clearly: [Convolutional Neural Network – In a Nut Shell](https://engmrk.com/convolutional-neural-network-3/)
-https://colab.research.google.com/drive/17WQsYjRhZUinjRsXrlzPSPrizKIc31Am
