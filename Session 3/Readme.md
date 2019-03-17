@@ -1,4 +1,6 @@
 # Session 3 | Convolution Foundations
+_**Session Date:** 9th March_  
+_**Assignment Deadline:** 16th March_ 
 
 ## What is Convolution?
 The process of extracting features from input data using kernels/filters. Filter moves discretely on top of data-plane/channel, scales the input data equal to the size of it's receptive field, sums this results and creates a new feature map.
