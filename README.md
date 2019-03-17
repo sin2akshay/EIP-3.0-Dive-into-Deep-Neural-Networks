@@ -14,7 +14,7 @@ _Powered by NASSCOM's CoE for IoT & AI and NVIDIA_
 This is an internship program that will teach Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. This is a **fast paced** program and won't be dealing with topics that are irrelevant in the industry today. Looking forward to gaining a lot from this program. Details of my progress would be updated here. The details of the program are mentioned below:
 ___
   
-External Internship Program
+### External Internship Program
   
 The External Internship Program is a Machine Learning for Deep Neural Networks internship program designed especially for working Professionals, though it is open for learners from all domains.  
   
