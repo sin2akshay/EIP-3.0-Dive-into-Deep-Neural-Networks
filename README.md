@@ -1,4 +1,5 @@
 ## **External Internship Program** -  _Dive into Deep Neural Networks_
+_Powered by NASSCOM's CoE for IoT & AI and NVIDIA_
 <p align="center">
   <img width="460" height="300" src="https://4.bp.blogspot.com/-jfw_hLEXKII/XI27d5rxeOI/AAAAAAAAYmE/iV05TysWKlAOM6jg7kV28-k7osbVfN3IACLcBGAs/s1600/EIP3.png">
 </p>
@@ -10,7 +11,7 @@
   <img src="https://2.bp.blogspot.com/-ym4HVFpGw6s/XI293VubjFI/AAAAAAAAYmo/Aok3kIF6KKQQS9wva7Q81ot7pY0Rl2LUwCLcBGAs/s1600/DCAI.png" width="200" />
 </p>
   
-Hi, I have enrolled into an internship program that will teach me Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. This is a **fast paced** program and won't be dealing with topics that are irrelevant in the industry today. I am looking forward to gaining a lot from this program. I hope to complete all three phases and even try for Phase four. I will be updating the details of my progress here. The details of the program are mentioned below:
+This is an internship program that will teach Machine Learning and related topics being organised by [MLBLR](https://mlblr.com/). The program is divided into different phases and only after clearing a phase, we can move to next one. This is a **fast paced** program and won't be dealing with topics that are irrelevant in the industry today. Looking forward to gaining a lot from this program. Details of my progress would be updated here. The details of the program are mentioned below:
 ___
   
 External Internship Program
@@ -80,12 +81,6 @@ Phase III will have an RL project which will challenge your understanding and he
 The Fourth Phase of the internship is **only for select few**. In EIP 1, we selected top 10% of the interns and worked with them to implement a much complex project end to end. Phase Four involved one-on-one sessions, where a mentor will help you with your guided research, execution and either "Deployment Mode - 1000 fps" or "Research Mode - Paper Publication". Phase Four will start in January 2019. Details about this session will be shared on time.  
 ___
 #### To do List:
-- [X] Complete Assignment 1
-- [X] Upload Session 1 Notes 
-- [X] Complete Session 2 Assignments
-- [X] Upload Session 2 Assignments
-- [X] Upload Session 2 Notes
-- [ ] Complete Session 3 Assignments
 - [ ] Upload Session 3 Assignments
 - [ ] Upload Session 3 Notes
 ___
